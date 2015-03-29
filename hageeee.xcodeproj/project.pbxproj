@@ -13,6 +13,17 @@
 		45B1BE531A9990C000E6A1BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B1BE521A9990C000E6A1BF /* Images.xcassets */; };
 		45B1BE561A9990C000E6A1BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45B1BE541A9990C000E6A1BF /* LaunchScreen.xib */; };
 		45B1BE621A9990C000E6A1BF /* hageeeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B1BE611A9990C000E6A1BF /* hageeeeTests.swift */; };
+		45B1BE6C1A99911400E6A1BF /* mawari2.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B1BE6B1A99911400E6A1BF /* mawari2.png */; };
+		45B1BE6E1A99911A00E6A1BF /* mawari4.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B1BE6D1A99911A00E6A1BF /* mawari4.png */; };
+		45B1BE701A99912B00E6A1BF /* mawari1.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B1BE6F1A99912B00E6A1BF /* mawari1.png */; };
+		45B1BE721A99913400E6A1BF /* mawari3.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B1BE711A99913400E6A1BF /* mawari3.png */; };
+		45B1BE741A99913C00E6A1BF /* mawari5.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B1BE731A99913C00E6A1BF /* mawari5.png */; };
+		45B1BE761A99BFAE00E6A1BF /* hage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B1BE751A99BFAE00E6A1BF /* hage1.png */; };
+		45B1BE781A99BFB300E6A1BF /* hage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B1BE771A99BFB300E6A1BF /* hage2.png */; };
+		45B1BE7A1A99BFC200E6A1BF /* hage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B1BE791A99BFC200E6A1BF /* hage3.png */; };
+		45B1BE7C1A99BFC700E6A1BF /* hage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B1BE7B1A99BFC700E6A1BF /* hage4.png */; };
+		45B1BE821A99CC6400E6A1BF /* hyoushi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45B1BE811A99CC6400E6A1BF /* hyoushi.jpg */; };
+		45DE1B351AC77C2200836B6A /* shojiro.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DE1B341AC77C2200836B6A /* shojiro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,17 @@
 		45B1BE5B1A9990C000E6A1BF /* hageeeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hageeeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B1BE601A9990C000E6A1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45B1BE611A9990C000E6A1BF /* hageeeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hageeeeTests.swift; sourceTree = "<group>"; };
+		45B1BE6B1A99911400E6A1BF /* mawari2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mawari2.png; sourceTree = "<group>"; };
+		45B1BE6D1A99911A00E6A1BF /* mawari4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mawari4.png; sourceTree = "<group>"; };
+		45B1BE6F1A99912B00E6A1BF /* mawari1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mawari1.png; sourceTree = "<group>"; };
+		45B1BE711A99913400E6A1BF /* mawari3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mawari3.png; sourceTree = "<group>"; };
+		45B1BE731A99913C00E6A1BF /* mawari5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mawari5.png; sourceTree = "<group>"; };
+		45B1BE751A99BFAE00E6A1BF /* hage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hage1.png; sourceTree = "<group>"; };
+		45B1BE771A99BFB300E6A1BF /* hage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hage2.png; sourceTree = "<group>"; };
+		45B1BE791A99BFC200E6A1BF /* hage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hage3.png; sourceTree = "<group>"; };
+		45B1BE7B1A99BFC700E6A1BF /* hage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hage4.png; sourceTree = "<group>"; };
+		45B1BE811A99CC6400E6A1BF /* hyoushi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hyoushi.jpg; sourceTree = "<group>"; };
+		45DE1B341AC77C2200836B6A /* shojiro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shojiro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +112,17 @@
 		45B1BE491A9990C000E6A1BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				45B1BE751A99BFAE00E6A1BF /* hage1.png */,
+				45DE1B341AC77C2200836B6A /* shojiro.png */,
+				45B1BE791A99BFC200E6A1BF /* hage3.png */,
+				45B1BE771A99BFB300E6A1BF /* hage2.png */,
+				45B1BE7B1A99BFC700E6A1BF /* hage4.png */,
+				45B1BE811A99CC6400E6A1BF /* hyoushi.jpg */,
+				45B1BE711A99913400E6A1BF /* mawari3.png */,
+				45B1BE6F1A99912B00E6A1BF /* mawari1.png */,
+				45B1BE731A99913C00E6A1BF /* mawari5.png */,
+				45B1BE6D1A99911A00E6A1BF /* mawari4.png */,
+				45B1BE6B1A99911400E6A1BF /* mawari2.png */,
 				45B1BE4A1A9990C000E6A1BF /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +225,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45DE1B351AC77C2200836B6A /* shojiro.png in Resources */,
 				45B1BE511A9990C000E6A1BF /* Main.storyboard in Resources */,
+				45B1BE6C1A99911400E6A1BF /* mawari2.png in Resources */,
 				45B1BE561A9990C000E6A1BF /* LaunchScreen.xib in Resources */,
+				45B1BE6E1A99911A00E6A1BF /* mawari4.png in Resources */,
+				45B1BE7A1A99BFC200E6A1BF /* hage3.png in Resources */,
+				45B1BE7C1A99BFC700E6A1BF /* hage4.png in Resources */,
+				45B1BE741A99913C00E6A1BF /* mawari5.png in Resources */,
+				45B1BE781A99BFB300E6A1BF /* hage2.png in Resources */,
+				45B1BE821A99CC6400E6A1BF /* hyoushi.jpg in Resources */,
+				45B1BE701A99912B00E6A1BF /* mawari1.png in Resources */,
+				45B1BE721A99913400E6A1BF /* mawari3.png in Resources */,
 				45B1BE531A9990C000E6A1BF /* Images.xcassets in Resources */,
+				45B1BE761A99BFAE00E6A1BF /* hage1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +449,7 @@
 				45B1BE671A9990C000E6A1BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45B1BE681A9990C000E6A1BF /* Build configuration list for PBXNativeTarget "hageeeeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +458,7 @@
 				45B1BE6A1A9990C000E6A1BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

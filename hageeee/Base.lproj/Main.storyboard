@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="hageeee" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +15,178 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rRL-7T-bYl">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="カメラロール">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="284" y="550" width="90" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="camerarollButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5zu-yA-DBg"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="mawari1.png" translatesAutoresizingMaskIntoConstraints="NO" id="GPb-bN-WdN">
+                                <rect key="frame" x="20" y="187" width="100" height="100"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="1" y="202" width="100" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="mawari2.png" translatesAutoresizingMaskIntoConstraints="NO" id="6lc-Xd-eg0">
+                                <rect key="frame" x="57" y="79" width="100" height="100"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="75" width="100" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="mawari3.png" translatesAutoresizingMaskIntoConstraints="NO" id="DrE-Vv-anY">
+                                <rect key="frame" x="165" y="20" width="100" height="100"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="141" y="0.0" width="100" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="mawari4.png" translatesAutoresizingMaskIntoConstraints="NO" id="FH1-BA-1N6">
+                                <rect key="frame" x="262" y="79" width="100" height="100"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="294" y="46" width="100" height="100"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmu-au-Vmi">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="保存する">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="170" y="550" width="60" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="saveButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hfN-QH-nWA"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="mawari5.png" translatesAutoresizingMaskIntoConstraints="NO" id="upv-Jc-xEv">
+                                <rect key="frame" x="307" y="182" width="100" height="100"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="294" y="191" width="100" height="100"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shojiro.png" translatesAutoresizingMaskIntoConstraints="NO" id="yqM-Xu-h7j">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="92" y="108" width="217" height="239"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hage1.png" translatesAutoresizingMaskIntoConstraints="NO" id="DUq-H1-uyb">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="141" y="115" width="128" height="104"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hage2.png" translatesAutoresizingMaskIntoConstraints="NO" id="jIB-PT-7K4">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="122" y="122" width="155" height="97"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hage3.png" translatesAutoresizingMaskIntoConstraints="NO" id="H4s-PQ-EKY">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="133" y="129" width="136" height="90"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hage4.png" translatesAutoresizingMaskIntoConstraints="NO" id="kJT-5Q-kwS">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="133" y="115" width="136" height="103"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6hJ-br-ux2">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="91" y="102" width="218" height="245"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Owt-Tw-k97">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="写真を撮る">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="7" y="550" width="75" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="photoButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FNh-Q7-wXJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="rRL-7T-bYl"/>
+                                <exclude reference="GPb-bN-WdN"/>
+                                <exclude reference="6lc-Xd-eg0"/>
+                                <exclude reference="DrE-Vv-anY"/>
+                                <exclude reference="FH1-BA-1N6"/>
+                                <exclude reference="hmu-au-Vmi"/>
+                                <exclude reference="upv-Jc-xEv"/>
+                                <exclude reference="yqM-Xu-h7j"/>
+                                <exclude reference="DUq-H1-uyb"/>
+                                <exclude reference="jIB-PT-7K4"/>
+                                <exclude reference="H4s-PQ-EKY"/>
+                                <exclude reference="kJT-5Q-kwS"/>
+                                <exclude reference="6hJ-br-ux2"/>
+                                <exclude reference="Owt-Tw-k97"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="rRL-7T-bYl"/>
+                                <include reference="GPb-bN-WdN"/>
+                                <include reference="6lc-Xd-eg0"/>
+                                <include reference="DrE-Vv-anY"/>
+                                <include reference="FH1-BA-1N6"/>
+                                <include reference="hmu-au-Vmi"/>
+                                <include reference="upv-Jc-xEv"/>
+                                <include reference="yqM-Xu-h7j"/>
+                                <include reference="DUq-H1-uyb"/>
+                                <include reference="jIB-PT-7K4"/>
+                                <include reference="H4s-PQ-EKY"/>
+                                <include reference="kJT-5Q-kwS"/>
+                                <include reference="6hJ-br-ux2"/>
+                                <include reference="Owt-Tw-k97"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="hage1" destination="DUq-H1-uyb" id="dTB-it-boX"/>
+                        <outlet property="hage2" destination="jIB-PT-7K4" id="yoC-4y-vwE"/>
+                        <outlet property="hage3" destination="H4s-PQ-EKY" id="HHZ-ry-8WK"/>
+                        <outlet property="hage4" destination="kJT-5Q-kwS" id="Zqa-wN-e0N"/>
+                        <outlet property="hageImageView" destination="6hJ-br-ux2" id="cuk-W9-ofq"/>
+                        <outlet property="mawari1View" destination="GPb-bN-WdN" id="fkb-v7-zwX"/>
+                        <outlet property="mawari2View" destination="6lc-Xd-eg0" id="MLw-5p-dx7"/>
+                        <outlet property="mawari3View" destination="DrE-Vv-anY" id="1pz-PJ-zWY"/>
+                        <outlet property="mawari4View" destination="FH1-BA-1N6" id="ZyZ-HO-Huc"/>
+                        <outlet property="mawari5View" destination="upv-Jc-xEv" id="jhj-BT-0Qq"/>
+                        <outlet property="shojiro" destination="yqM-Xu-h7j" id="TNO-7L-snZ"/>
+                        <outlet property="white" destination="6hJ-br-ux2" id="Gzi-Yc-DeF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="hage1.png" width="998" height="509"/>
+        <image name="hage2.png" width="1488" height="842"/>
+        <image name="hage3.png" width="825" height="594"/>
+        <image name="hage4.png" width="723" height="523"/>
+        <image name="mawari1.png" width="320" height="319"/>
+        <image name="mawari2.png" width="320" height="355"/>
+        <image name="mawari3.png" width="320" height="312"/>
+        <image name="mawari4.png" width="320" height="333"/>
+        <image name="mawari5.png" width="320" height="342"/>
+        <image name="shojiro.png" width="104" height="100"/>
+    </resources>
 </document>
